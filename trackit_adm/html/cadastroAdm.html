@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/Cadastroadm.css">
+    <link rel="shortcut icon" type="imagex/png" href="../LOJA/img/logo2.PNG" id="icon">
+    <script src="../js/cadastro.js"></script>
+</head>
+<body class="principal">
+    <div class="formulario">
+        <form id="form-login" method="POST" action="../php/CadastroUsuario.php">
+            <div class="imagem">
+            <img src="../img/logo.png" alt="">
+            </div>
+    <h3>CADASTRO ADMINISTRADOR</h3>
+    
+    <input type="text" name="email" placeholder="E-mail" id="adm"
+     required="true" minlength="3">
+    <br>
+    <input type="tel" name="telefone" placeholder="Telefone" id="telefone">
+    
+    <input type="password" name="senha" id="senha" placeholder="Senha" required="true" minlength="3">
+    <input type="tel" name="codigo" placeholder="Cogido Administrador" id="cod">
+    <br>
+    <a href="./index.html" id="link" >Login</a><br><br>
+    <input type="submit" value="Cadastrar">
+
+    <br>
+    
+</form>
+</div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

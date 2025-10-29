@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #FFFBEA;
+    color: #333;
+  }
+  
+  /* SIDEBAR */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100%;
+    background: #FFD600;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 10px 20px;
+    color: #222;
+    text-decoration: none;
+    margin: 8px 0;
+    transition: 0.3s;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  
+  .sidebar a:hover,
+  .sidebar a.active {
+    background: #FFF;
+    color: #F57F17;
+  }
+  
+  /* MAIN CONTENT */
+  .main-content {
+    margin-left: 240px;
+    padding: 30px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn {
+    background: #FBC02D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #F57F17;
+  }
+  
+  /* TABLE */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  th {
+    background: #FFE082;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 12px;
+    border-top: 1px solid #eee;
+  }
+  
+  .btn-edit {
+    background: #FFB300;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  .btn-delete {
+    background: #E53935;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* DASHBOARD CARDS */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  /* LOGIN */
+  .login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .login-container h1 {
+    color: #FBC02D;
+  }
+  
+  .login-container input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-container button {
+    margin-top: 20px;
+    width: 100%;
+    background: #FFD600;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  /* FORM PRODUTO */
+  .form-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 400px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-save {
+    background: #FFD600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .btn-cancel {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #eee;
+    border-radius: 10px;
+    color: #333;
+  }
+  
