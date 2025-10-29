@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #FFFBEA;
+    background: #C0C0C0;
     color: #333;
   }
   
@@ -12,7 +12,7 @@ body {
     left: 0;
     width: 220px;
     height: 100%;
-    background: #FFD600;
+    background: #C60E0A;
     padding: 30px 0;
     text-align: center;
     box-shadow: 2px 0 10px rgba(0,0,0,0.1);

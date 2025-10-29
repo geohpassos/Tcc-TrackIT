@@ -1,3 +1,5 @@
+
+
 <?php
 session_start();
 require_once('Conexao.php');
@@ -14,7 +16,7 @@ if(!empty($email) && !empty($senha)){
     if($adm && password_verify($senha, $adm['senha'])){
         $_SESSION ['adm_id'] = $adm['id'];
         $_SESSION ['adm_telefone'] = $adm['telefone'];
-        header('location:Home.php');
+        header('location:home.php');
         exit;
     }else{
         echo'Usuário ou senha incorretos, verifique os campos!';

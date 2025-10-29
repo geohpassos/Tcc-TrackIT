@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>TrackIt | Dashboard</title>
+  <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>TrackIt</h2>
+    <a href="dashboard.html" class="active">🏠 Início</a>
+    <a href="produtos.html">📦 Produtos</a>
+    <a href="#">👥 Usuários</a>
+    <a href="#">🧾 Pedidos</a>
+    <a href="#">⚙️ Configurações</a>
+  </aside>
+
+  <main class="main-content">
+    <h1>Bem-vinda, Administradora!</h1>
+    <div class="cards">
+      <div class="card">
+        <h2>📦 Produtos</h2>
+        <p>35 cadastrados</p>
+      </div>
+      <div class="card">
+        <h2>🧾 Pedidos</h2>
+        <p>12 em andamento</p>
+      </div>
+      <div class="card">
+        <h2>👥 Usuários</h2>
+        <p>8 administradores</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
+<?php
+
+
+?>
+
